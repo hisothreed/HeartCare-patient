@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		36617C131C19F3AB00C5A437 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36617C121C19F3AB00C5A437 /* AppDelegate.swift */; };
+		36617C151C19F3AB00C5A437 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36617C141C19F3AB00C5A437 /* ViewController.swift */; };
+		36617C181C19F3AB00C5A437 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36617C161C19F3AB00C5A437 /* Main.storyboard */; };
+		36617C1B1C19F3AB00C5A437 /* HeartCarePatient.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 36617C191C19F3AB00C5A437 /* HeartCarePatient.xcdatamodeld */; };
+		36617C1D1C19F3AB00C5A437 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36617C1C1C19F3AB00C5A437 /* Assets.xcassets */; };
+		36617C201C19F3AB00C5A437 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36617C1E1C19F3AB00C5A437 /* LaunchScreen.storyboard */; };
+		36617C2B1C19F3AB00C5A437 /* HeartCarePatientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36617C2A1C19F3AB00C5A437 /* HeartCarePatientTests.swift */; };
+		36617C361C19F3AB00C5A437 /* HeartCarePatientUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36617C351C19F3AB00C5A437 /* HeartCarePatientUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		36617C271C19F3AB00C5A437 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36617C071C19F3AB00C5A437 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36617C0E1C19F3AB00C5A437;
+			remoteInfo = HeartCarePatient;
+		};
+		36617C321C19F3AB00C5A437 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36617C071C19F3AB00C5A437 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36617C0E1C19F3AB00C5A437;
+			remoteInfo = HeartCarePatient;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		36617C0F1C19F3AB00C5A437 /* HeartCarePatient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeartCarePatient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		36617C121C19F3AB00C5A437 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		36617C141C19F3AB00C5A437 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		36617C171C19F3AB00C5A437 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		36617C1A1C19F3AB00C5A437 /* HeartCarePatient.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HeartCarePatient.xcdatamodel; sourceTree = "<group>"; };
+		36617C1C1C19F3AB00C5A437 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		36617C1F1C19F3AB00C5A437 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		36617C211C19F3AB00C5A437 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36617C261C19F3AB00C5A437 /* HeartCarePatientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeartCarePatientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		36617C2A1C19F3AB00C5A437 /* HeartCarePatientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartCarePatientTests.swift; sourceTree = "<group>"; };
+		36617C2C1C19F3AB00C5A437 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36617C311C19F3AB00C5A437 /* HeartCarePatientUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeartCarePatientUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		36617C351C19F3AB00C5A437 /* HeartCarePatientUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartCarePatientUITests.swift; sourceTree = "<group>"; };
+		36617C371C19F3AB00C5A437 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		36617C0C1C19F3AB00C5A437 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36617C231C19F3AB00C5A437 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36617C2E1C19F3AB00C5A437 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		36617C061C19F3AB00C5A437 = {
+			isa = PBXGroup;
+			children = (
+				36617C111C19F3AB00C5A437 /* HeartCarePatient */,
+				36617C291C19F3AB00C5A437 /* HeartCarePatientTests */,
+				36617C341C19F3AB00C5A437 /* HeartCarePatientUITests */,
+				36617C101C19F3AB00C5A437 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		36617C101C19F3AB00C5A437 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				36617C0F1C19F3AB00C5A437 /* HeartCarePatient.app */,
+				36617C261C19F3AB00C5A437 /* HeartCarePatientTests.xctest */,
+				36617C311C19F3AB00C5A437 /* HeartCarePatientUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		36617C111C19F3AB00C5A437 /* HeartCarePatient */ = {
+			isa = PBXGroup;
+			children = (
+				36617C121C19F3AB00C5A437 /* AppDelegate.swift */,
+				36617C141C19F3AB00C5A437 /* ViewController.swift */,
+				36617C161C19F3AB00C5A437 /* Main.storyboard */,
+				36617C1C1C19F3AB00C5A437 /* Assets.xcassets */,
+				36617C1E1C19F3AB00C5A437 /* LaunchScreen.storyboard */,
+				36617C211C19F3AB00C5A437 /* Info.plist */,
+				36617C191C19F3AB00C5A437 /* HeartCarePatient.xcdatamodeld */,
+			);
+			path = HeartCarePatient;
+			sourceTree = "<group>";
+		};
+		36617C291C19F3AB00C5A437 /* HeartCarePatientTests */ = {
+			isa = PBXGroup;
+			children = (
+				36617C2A1C19F3AB00C5A437 /* HeartCarePatientTests.swift */,
+				36617C2C1C19F3AB00C5A437 /* Info.plist */,
+			);
+			path = HeartCarePatientTests;
+			sourceTree = "<group>";
+		};
+		36617C341C19F3AB00C5A437 /* HeartCarePatientUITests */ = {
+			isa = PBXGroup;
+			children = (
+				36617C351C19F3AB00C5A437 /* HeartCarePatientUITests.swift */,
+				36617C371C19F3AB00C5A437 /* Info.plist */,
+			);
+			path = HeartCarePatientUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		36617C0E1C19F3AB00C5A437 /* HeartCarePatient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36617C3A1C19F3AB00C5A437 /* Build configuration list for PBXNativeTarget "HeartCarePatient" */;
+			buildPhases = (
+				36617C0B1C19F3AB00C5A437 /* Sources */,
+				36617C0C1C19F3AB00C5A437 /* Frameworks */,
+				36617C0D1C19F3AB00C5A437 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HeartCarePatient;
+			productName = HeartCarePatient;
+			productReference = 36617C0F1C19F3AB00C5A437 /* HeartCarePatient.app */;
+			productType = "com.apple.product-type.application";
+		};
+		36617C251C19F3AB00C5A437 /* HeartCarePatientTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36617C3D1C19F3AB00C5A437 /* Build configuration list for PBXNativeTarget "HeartCarePatientTests" */;
+			buildPhases = (
+				36617C221C19F3AB00C5A437 /* Sources */,
+				36617C231C19F3AB00C5A437 /* Frameworks */,
+				36617C241C19F3AB00C5A437 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				36617C281C19F3AB00C5A437 /* PBXTargetDependency */,
+			);
+			name = HeartCarePatientTests;
+			productName = HeartCarePatientTests;
+			productReference = 36617C261C19F3AB00C5A437 /* HeartCarePatientTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		36617C301C19F3AB00C5A437 /* HeartCarePatientUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36617C401C19F3AB00C5A437 /* Build configuration list for PBXNativeTarget "HeartCarePatientUITests" */;
+			buildPhases = (
+				36617C2D1C19F3AB00C5A437 /* Sources */,
+				36617C2E1C19F3AB00C5A437 /* Frameworks */,
+				36617C2F1C19F3AB00C5A437 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				36617C331C19F3AB00C5A437 /* PBXTargetDependency */,
+			);
+			name = HeartCarePatientUITests;
+			productName = HeartCarePatientUITests;
+			productReference = 36617C311C19F3AB00C5A437 /* HeartCarePatientUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		36617C071C19F3AB00C5A437 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Hiso3D;
+				TargetAttributes = {
+					36617C0E1C19F3AB00C5A437 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = FZFRKGPX25;
+					};
+					36617C251C19F3AB00C5A437 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = FZFRKGPX25;
+						TestTargetID = 36617C0E1C19F3AB00C5A437;
+					};
+					36617C301C19F3AB00C5A437 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = FZFRKGPX25;
+						TestTargetID = 36617C0E1C19F3AB00C5A437;
+					};
+				};
+			};
+			buildConfigurationList = 36617C0A1C19F3AB00C5A437 /* Build configuration list for PBXProject "HeartCarePatient" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 36617C061C19F3AB00C5A437;
+			productRefGroup = 36617C101C19F3AB00C5A437 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				36617C0E1C19F3AB00C5A437 /* HeartCarePatient */,
+				36617C251C19F3AB00C5A437 /* HeartCarePatientTests */,
+				36617C301C19F3AB00C5A437 /* HeartCarePatientUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		36617C0D1C19F3AB00C5A437 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36617C201C19F3AB00C5A437 /* LaunchScreen.storyboard in Resources */,
+				36617C1D1C19F3AB00C5A437 /* Assets.xcassets in Resources */,
+				36617C181C19F3AB00C5A437 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36617C241C19F3AB00C5A437 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36617C2F1C19F3AB00C5A437 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		36617C0B1C19F3AB00C5A437 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36617C1B1C19F3AB00C5A437 /* HeartCarePatient.xcdatamodeld in Sources */,
+				36617C151C19F3AB00C5A437 /* ViewController.swift in Sources */,
+				36617C131C19F3AB00C5A437 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36617C221C19F3AB00C5A437 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36617C2B1C19F3AB00C5A437 /* HeartCarePatientTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36617C2D1C19F3AB00C5A437 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36617C361C19F3AB00C5A437 /* HeartCarePatientUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		36617C281C19F3AB00C5A437 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 36617C0E1C19F3AB00C5A437 /* HeartCarePatient */;
+			targetProxy = 36617C271C19F3AB00C5A437 /* PBXContainerItemProxy */;
+		};
+		36617C331C19F3AB00C5A437 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 36617C0E1C19F3AB00C5A437 /* HeartCarePatient */;
+			targetProxy = 36617C321C19F3AB00C5A437 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		36617C161C19F3AB00C5A437 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36617C171C19F3AB00C5A437 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		36617C1E1C19F3AB00C5A437 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36617C1F1C19F3AB00C5A437 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		36617C381C19F3AB00C5A437 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		36617C391C19F3AB00C5A437 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		36617C3B1C19F3AB00C5A437 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HeartCarePatient/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Hiso3D.HeartCarePatient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		36617C3C1C19F3AB00C5A437 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HeartCarePatient/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Hiso3D.HeartCarePatient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		36617C3E1C19F3AB00C5A437 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HeartCarePatientTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Hiso3D.HeartCarePatientTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HeartCarePatient.app/HeartCarePatient";
+			};
+			name = Debug;
+		};
+		36617C3F1C19F3AB00C5A437 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HeartCarePatientTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Hiso3D.HeartCarePatientTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HeartCarePatient.app/HeartCarePatient";
+			};
+			name = Release;
+		};
+		36617C411C19F3AB00C5A437 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HeartCarePatientUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Hiso3D.HeartCarePatientUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HeartCarePatient;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		36617C421C19F3AB00C5A437 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HeartCarePatientUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Hiso3D.HeartCarePatientUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HeartCarePatient;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		36617C0A1C19F3AB00C5A437 /* Build configuration list for PBXProject "HeartCarePatient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36617C381C19F3AB00C5A437 /* Debug */,
+				36617C391C19F3AB00C5A437 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36617C3A1C19F3AB00C5A437 /* Build configuration list for PBXNativeTarget "HeartCarePatient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36617C3B1C19F3AB00C5A437 /* Debug */,
+				36617C3C1C19F3AB00C5A437 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		36617C3D1C19F3AB00C5A437 /* Build configuration list for PBXNativeTarget "HeartCarePatientTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36617C3E1C19F3AB00C5A437 /* Debug */,
+				36617C3F1C19F3AB00C5A437 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		36617C401C19F3AB00C5A437 /* Build configuration list for PBXNativeTarget "HeartCarePatientUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36617C411C19F3AB00C5A437 /* Debug */,
+				36617C421C19F3AB00C5A437 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		36617C191C19F3AB00C5A437 /* HeartCarePatient.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				36617C1A1C19F3AB00C5A437 /* HeartCarePatient.xcdatamodel */,
+			);
+			currentVersion = 36617C1A1C19F3AB00C5A437 /* HeartCarePatient.xcdatamodel */;
+			path = HeartCarePatient.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 36617C071C19F3AB00C5A437 /* Project object */;
+}

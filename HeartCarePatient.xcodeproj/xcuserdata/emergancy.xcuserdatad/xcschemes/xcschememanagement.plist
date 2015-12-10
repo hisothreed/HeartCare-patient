@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>HeartCarePatient.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>36617C0E1C19F3AB00C5A437</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>36617C251C19F3AB00C5A437</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>36617C301C19F3AB00C5A437</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
