@@ -8,7 +8,7 @@
 
 import UIKit
 import CoreData
-
+import Parse
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -17,6 +17,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        UIApplication.sharedApplication().statusBarStyle = .LightContent
+        Parse.setApplicationId("ITiD11S55WsrTmGwT0o2jGCUjnIoNq2Qd91F14gr", clientKey: "2IZQm8MWPPeNsYUFubDwwWB9TiJyGD16NVXkqkp1")
         return true
     }
 

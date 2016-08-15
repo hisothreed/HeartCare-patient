@@ -15,6 +15,30 @@
 		36617C201C19F3AB00C5A437 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36617C1E1C19F3AB00C5A437 /* LaunchScreen.storyboard */; };
 		36617C2B1C19F3AB00C5A437 /* HeartCarePatientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36617C2A1C19F3AB00C5A437 /* HeartCarePatientTests.swift */; };
 		36617C361C19F3AB00C5A437 /* HeartCarePatientUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36617C351C19F3AB00C5A437 /* HeartCarePatientUITests.swift */; };
+		36617C481C1A288E00C5A437 /* MainPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36617C471C1A288E00C5A437 /* MainPageViewController.swift */; };
+		9E068A991C1CA61F000D4046 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E068A981C1CA61F000D4046 /* HealthKit.framework */; };
+		9E068A9C1C1CA8BA000D4046 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E068A9B1C1CA8BA000D4046 /* Parse.framework */; };
+		9E068A9E1C1CA8D5000D4046 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E068A9D1C1CA8D5000D4046 /* AudioToolbox.framework */; };
+		9E068AA91C1CA8E0000D4046 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E068A9F1C1CA8E0000D4046 /* CFNetwork.framework */; };
+		9E068AAA1C1CA8E0000D4046 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E068AA01C1CA8E0000D4046 /* CoreGraphics.framework */; };
+		9E068AAB1C1CA8E0000D4046 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E068AA11C1CA8E0000D4046 /* CoreLocation.framework */; };
+		9E068AAC1C1CA8E0000D4046 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E068AA21C1CA8E0000D4046 /* libsqlite3.tbd */; };
+		9E068AAD1C1CA8E0000D4046 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E068AA31C1CA8E0000D4046 /* libz.tbd */; };
+		9E068AAE1C1CA8E0000D4046 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E068AA41C1CA8E0000D4046 /* QuartzCore.framework */; };
+		9E068AAF1C1CA8E0000D4046 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E068AA51C1CA8E0000D4046 /* Security.framework */; };
+		9E068AB01C1CA8E0000D4046 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E068AA61C1CA8E0000D4046 /* StoreKit.framework */; };
+		9E068AB11C1CA8E0000D4046 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E068AA71C1CA8E0000D4046 /* SystemConfiguration.framework */; };
+		9E068AB41C1CA938000D4046 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E068AB31C1CA938000D4046 /* Bolts.framework */; };
+		9E068AB61C1CAAFC000D4046 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E068AB51C1CAAFC000D4046 /* SignUpViewController.swift */; };
+		9E17304B1C34754300CDF3C2 /* ReportsCellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1730491C34754300CDF3C2 /* ReportsCellViewController.swift */; };
+		9E17304C1C34754300CDF3C2 /* ReportsCellViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E17304A1C34754300CDF3C2 /* ReportsCellViewController.xib */; };
+		9E17304E1C34778800CDF3C2 /* reportsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E17304D1C34778800CDF3C2 /* reportsViewController.swift */; };
+		9E2D9D181C1F390E00FE25C9 /* SignUp2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2D9D171C1F390E00FE25C9 /* SignUp2ViewController.swift */; };
+		9E2D9D1A1C1F41F000FE25C9 /* SignUp1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2D9D191C1F41F000FE25C9 /* SignUp1ViewController.swift */; };
+		9E6158C41C288B87003C2D1A /* profileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6158C31C288B87003C2D1A /* profileViewController.swift */; };
+		9EC0335C1C1B58DB0018C70F /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC0335B1C1B58DB0018C70F /* SideMenuViewController.swift */; };
+		9EDE65B51C358CB500CCB888 /* mViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDE65B41C358CB500CCB888 /* mViewController.swift */; };
+		9EDE65BD1C358E7F00CCB888 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EDE65BC1C358E7F00CCB888 /* SWRevealViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +73,34 @@
 		36617C311C19F3AB00C5A437 /* HeartCarePatientUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeartCarePatientUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		36617C351C19F3AB00C5A437 /* HeartCarePatientUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartCarePatientUITests.swift; sourceTree = "<group>"; };
 		36617C371C19F3AB00C5A437 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36617C471C1A288E00C5A437 /* MainPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainPageViewController.swift; sourceTree = "<group>"; };
+		9E068A981C1CA61F000D4046 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		9E068A9A1C1CA61F000D4046 /* HeartCarePatient.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = HeartCarePatient.entitlements; sourceTree = "<group>"; };
+		9E068A9B1C1CA8BA000D4046 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = SOURCE_ROOT; };
+		9E068A9D1C1CA8D5000D4046 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		9E068A9F1C1CA8E0000D4046 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		9E068AA01C1CA8E0000D4046 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9E068AA11C1CA8E0000D4046 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		9E068AA21C1CA8E0000D4046 /* libsqlite3.tbd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		9E068AA31C1CA8E0000D4046 /* libz.tbd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		9E068AA41C1CA8E0000D4046 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		9E068AA51C1CA8E0000D4046 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		9E068AA61C1CA8E0000D4046 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		9E068AA71C1CA8E0000D4046 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		9E068AB31C1CA938000D4046 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		9E068AB51C1CAAFC000D4046 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		9E1730491C34754300CDF3C2 /* ReportsCellViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReportsCellViewController.swift; sourceTree = "<group>"; };
+		9E17304A1C34754300CDF3C2 /* ReportsCellViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReportsCellViewController.xib; sourceTree = "<group>"; };
+		9E17304D1C34778800CDF3C2 /* reportsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = reportsViewController.swift; sourceTree = "<group>"; };
+		9E2D9D171C1F390E00FE25C9 /* SignUp2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUp2ViewController.swift; sourceTree = "<group>"; };
+		9E2D9D191C1F41F000FE25C9 /* SignUp1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUp1ViewController.swift; sourceTree = "<group>"; };
+		9E6158C31C288B87003C2D1A /* profileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = profileViewController.swift; sourceTree = "<group>"; };
+		9EC0335B1C1B58DB0018C70F /* SideMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuViewController.swift; sourceTree = "<group>"; };
+		9EDE65B41C358CB500CCB888 /* mViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mViewController.swift; sourceTree = "<group>"; };
+		9EDE65B91C358DA600CCB888 /* SidebarMenu-Bridging- Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SidebarMenu-Bridging- Header.h"; sourceTree = "<group>"; };
+		9EDE65BA1C358E7F00CCB888 /* HeartCarePatient-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HeartCarePatient-Bridging-Header.h"; sourceTree = "<group>"; };
+		9EDE65BB1C358E7F00CCB888 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		9EDE65BC1C358E7F00CCB888 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +108,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E068AAB1C1CA8E0000D4046 /* CoreLocation.framework in Frameworks */,
+				9E068AAD1C1CA8E0000D4046 /* libz.tbd in Frameworks */,
+				9E068A9C1C1CA8BA000D4046 /* Parse.framework in Frameworks */,
+				9E068AAC1C1CA8E0000D4046 /* libsqlite3.tbd in Frameworks */,
+				9E068A991C1CA61F000D4046 /* HealthKit.framework in Frameworks */,
+				9E068AA91C1CA8E0000D4046 /* CFNetwork.framework in Frameworks */,
+				9E068AAF1C1CA8E0000D4046 /* Security.framework in Frameworks */,
+				9E068AB41C1CA938000D4046 /* Bolts.framework in Frameworks */,
+				9E068AAA1C1CA8E0000D4046 /* CoreGraphics.framework in Frameworks */,
+				9E068A9E1C1CA8D5000D4046 /* AudioToolbox.framework in Frameworks */,
+				9E068AAE1C1CA8E0000D4046 /* QuartzCore.framework in Frameworks */,
+				9E068AB11C1CA8E0000D4046 /* SystemConfiguration.framework in Frameworks */,
+				9E068AB01C1CA8E0000D4046 /* StoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +144,20 @@
 		36617C061C19F3AB00C5A437 = {
 			isa = PBXGroup;
 			children = (
+				9EDE65B91C358DA600CCB888 /* SidebarMenu-Bridging- Header.h */,
+				9E068AB31C1CA938000D4046 /* Bolts.framework */,
+				9E068A9F1C1CA8E0000D4046 /* CFNetwork.framework */,
+				9E068AA01C1CA8E0000D4046 /* CoreGraphics.framework */,
+				9E068AA11C1CA8E0000D4046 /* CoreLocation.framework */,
+				9E068AA21C1CA8E0000D4046 /* libsqlite3.tbd */,
+				9E068AA31C1CA8E0000D4046 /* libz.tbd */,
+				9E068AA41C1CA8E0000D4046 /* QuartzCore.framework */,
+				9E068AA51C1CA8E0000D4046 /* Security.framework */,
+				9E068AA61C1CA8E0000D4046 /* StoreKit.framework */,
+				9E068AA71C1CA8E0000D4046 /* SystemConfiguration.framework */,
+				9E068A9D1C1CA8D5000D4046 /* AudioToolbox.framework */,
+				9E068A9B1C1CA8BA000D4046 /* Parse.framework */,
+				9E068A981C1CA61F000D4046 /* HealthKit.framework */,
 				36617C111C19F3AB00C5A437 /* HeartCarePatient */,
 				36617C291C19F3AB00C5A437 /* HeartCarePatientTests */,
 				36617C341C19F3AB00C5A437 /* HeartCarePatientUITests */,
@@ -99,9 +178,21 @@
 		36617C111C19F3AB00C5A437 /* HeartCarePatient */ = {
 			isa = PBXGroup;
 			children = (
+				9EDE65BE1C358ED000CCB888 /* swre */,
+				9E068A9A1C1CA61F000D4046 /* HeartCarePatient.entitlements */,
+				9E1730491C34754300CDF3C2 /* ReportsCellViewController.swift */,
+				9E17304A1C34754300CDF3C2 /* ReportsCellViewController.xib */,
 				36617C121C19F3AB00C5A437 /* AppDelegate.swift */,
 				36617C141C19F3AB00C5A437 /* ViewController.swift */,
 				36617C161C19F3AB00C5A437 /* Main.storyboard */,
+				9EDE65B41C358CB500CCB888 /* mViewController.swift */,
+				9E17304D1C34778800CDF3C2 /* reportsViewController.swift */,
+				9E6158C31C288B87003C2D1A /* profileViewController.swift */,
+				9EC0335B1C1B58DB0018C70F /* SideMenuViewController.swift */,
+				36617C471C1A288E00C5A437 /* MainPageViewController.swift */,
+				9E2D9D191C1F41F000FE25C9 /* SignUp1ViewController.swift */,
+				9E2D9D171C1F390E00FE25C9 /* SignUp2ViewController.swift */,
+				9E068AB51C1CAAFC000D4046 /* SignUpViewController.swift */,
 				36617C1C1C19F3AB00C5A437 /* Assets.xcassets */,
 				36617C1E1C19F3AB00C5A437 /* LaunchScreen.storyboard */,
 				36617C211C19F3AB00C5A437 /* Info.plist */,
@@ -126,6 +217,16 @@
 				36617C371C19F3AB00C5A437 /* Info.plist */,
 			);
 			path = HeartCarePatientUITests;
+			sourceTree = "<group>";
+		};
+		9EDE65BE1C358ED000CCB888 /* swre */ = {
+			isa = PBXGroup;
+			children = (
+				9EDE65BB1C358E7F00CCB888 /* SWRevealViewController.h */,
+				9EDE65BC1C358E7F00CCB888 /* SWRevealViewController.m */,
+				9EDE65BA1C358E7F00CCB888 /* HeartCarePatient-Bridging-Header.h */,
+			);
+			name = swre;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -190,13 +291,18 @@
 		36617C071C19F3AB00C5A437 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0710;
+				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = Hiso3D;
 				TargetAttributes = {
 					36617C0E1C19F3AB00C5A437 = {
 						CreatedOnToolsVersion = 7.1.1;
 						DevelopmentTeam = FZFRKGPX25;
+						SystemCapabilities = {
+							com.apple.HealthKit = {
+								enabled = 1;
+							};
+						};
 					};
 					36617C251C19F3AB00C5A437 = {
 						CreatedOnToolsVersion = 7.1.1;
@@ -235,6 +341,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E17304C1C34754300CDF3C2 /* ReportsCellViewController.xib in Resources */,
 				36617C201C19F3AB00C5A437 /* LaunchScreen.storyboard in Resources */,
 				36617C1D1C19F3AB00C5A437 /* Assets.xcassets in Resources */,
 				36617C181C19F3AB00C5A437 /* Main.storyboard in Resources */,
@@ -262,8 +369,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9EDE65BD1C358E7F00CCB888 /* SWRevealViewController.m in Sources */,
+				9EDE65B51C358CB500CCB888 /* mViewController.swift in Sources */,
+				9E068AB61C1CAAFC000D4046 /* SignUpViewController.swift in Sources */,
+				36617C481C1A288E00C5A437 /* MainPageViewController.swift in Sources */,
+				9E17304B1C34754300CDF3C2 /* ReportsCellViewController.swift in Sources */,
 				36617C1B1C19F3AB00C5A437 /* HeartCarePatient.xcdatamodeld in Sources */,
 				36617C151C19F3AB00C5A437 /* ViewController.swift in Sources */,
+				9E2D9D1A1C1F41F000FE25C9 /* SignUp1ViewController.swift in Sources */,
+				9E17304E1C34778800CDF3C2 /* reportsViewController.swift in Sources */,
+				9EC0335C1C1B58DB0018C70F /* SideMenuViewController.swift in Sources */,
+				9E2D9D181C1F390E00FE25C9 /* SignUp2ViewController.swift in Sources */,
+				9E6158C41C288B87003C2D1A /* profileViewController.swift in Sources */,
 				36617C131C19F3AB00C5A437 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -404,10 +521,22 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = HeartCarePatient/HeartCarePatient.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = HeartCarePatient/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Hiso3D.HeartCarePatient;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "HeartCarePatient/HeartCarePatient-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -415,10 +544,21 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = HeartCarePatient/HeartCarePatient.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = HeartCarePatient/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Hiso3D.HeartCarePatient;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "HeartCarePatient/HeartCarePatient-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -489,6 +629,7 @@
 				36617C3C1C19F3AB00C5A437 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		36617C3D1C19F3AB00C5A437 /* Build configuration list for PBXNativeTarget "HeartCarePatientTests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +638,7 @@
 				36617C3F1C19F3AB00C5A437 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		36617C401C19F3AB00C5A437 /* Build configuration list for PBXNativeTarget "HeartCarePatientUITests" */ = {
 			isa = XCConfigurationList;
@@ -505,6 +647,7 @@
 				36617C421C19F3AB00C5A437 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
